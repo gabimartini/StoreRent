@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Spectral&display=swap');
+
+
+/*------------ Home --------------*/
+
+#menu-fixed{
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  margin-top: -15%;
+  
+}
+
+#logo-store{
+  width: 5%;
+  margin-top: 1%;
+margin-left: 5%;
+}
+
+#form-place{
+margin-top: -2.5%;
+margin-left: 23%;
+
+}
+
+
+#place{
+width: 100%;
+padding: 5%;
+font-family: 'Alatsi', sans-serif;
+margin-left: -6%;
+margin-top: 0%;
+border: 1px solid white;
+box-shadow: 0px 0px 20px 1px rgba(202, 202, 202, 0.5);
+}
+
+#link-search{
+  font-family: 'Alatsi', sans-serif;
+  margin-top: -2.5% ;
+  margin-left: 8%;
+
+}
+
+
+#search{
+  width: 5%;
+  border: 1px solid white;
+  background-color: white;
+  color: white;
+  cursor: pointer;
+  border-radius: 10%;
+  font-family: 'Alatsi', sans-serif;
+  margin-top: -8%;
+  margin-left: 2%;
+
+}
+
+#place-complete{
+margin-top: 0%;
+border: 2px solid white;
+width: 70%;
+padding: 4%;
+margin-left: 15%;
+
+}
+
+#img-search{
+ width: 100%;
+  margin-left: 5%;
+  margin-top: 0%;
+ 
+}
+
+
+#menu-home{
+  margin-top: -2.5%;
+  margin-left: 20%;
+}
+
+
+.menu-list ul{
+  list-style:none;
+ 
+  
+}
+
+.menu-list li{
+  display: inline;
+  padding: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-left: 25%;
+  margin-right: -20%;
+  font-size: 15px;
+ 
+}
+
+.menu-list a{
+text-decoration: none;
+color: black;
+font-size: 15px;
+}
+
+.menu-list button{
+  border: 1px solid white;
+  background-color: white;
+  cursor:pointer;
+  font-family: 'Alatsi', sans-serif;
+  font-size: 15px;
+ 
+   }
+
+#image-top{
+  margin-left: 5%;
+  width: 90%;
+  }
+
+#title-wekeend{
+  margin-top: 15%;
+color: rgb(85, 85, 85);
+font-family: 'Alatsi', sans-serif;
+margin-left: 5%;
+}
+
+#title-winter{
+margin-top: 5%;
+color: rgb(85, 85, 85);
+font-family: 'Alatsi', sans-serif;
+margin-left: 6.5%;
+}
+
+#p-winter{
+margin-top: -1.5%;
+color: grey;
+margin-left: 6.5%;
+font-family: 'Spectral', serif;
+}
+
+#title-world{
+margin-top: 5%;
+color: rgb(85, 85, 85);
+font-family: 'Alatsi', sans-serif;
+margin-left: 6.5%;
+}
+
+#title-summer{
+  margin-top: 5%;
+  color: rgb(85, 85, 85);
+  font-family: 'Alatsi', sans-serif;
+  margin-left: 6.5%;
+}
+
+#title-asian{
+  margin-top: 5%;
+  color: rgb(85, 85, 85);
+  font-family: 'Alatsi', sans-serif;
+  margin-left: 6.5%;
+}
+
+span{
+  font-family: 'Cinzel', serif;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  color: #f7b06a;
+}
+
+#line{
+  border: 0.5px solid gray;
+  margin-top: 2%;
+}
+
+.summer-photo{
+  width: 55%;
+  border-radius:5%;
+  display:inline-block
+}
+
+#row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .coluna{
+    float: left;
+    width: 25%;
+  }
+
+  #coluna-left{
+    margin-left: 6.5%
+  }
+
+  #coluna-left-2{
+    margin-left: -2.2%
+  }
+
+  .legend{
+    font-family: 'Spectral', serif;
+    font-size: 14px;
+  }
+
+  #world-1, #wedding-1{
+    border-radius:0%;
+    
+  }
+
+  #world-2, #wedding-2{
+    border-radius:0%;
+    
+  }
+
+  #world-3, #wedding-3{
+    border-radius:0%
+  }
+
+  #world-4, #wedding-4{
+    border-radius:0%
+  }
+  #world-1{
+    width: 60%;
+  }
+
+  #world-2{
+    width: 58%
+  }
+
+
+/*Menu-Login*/
+
+.menu{
+  margin-left: 35%;
+  margin-top: -3.8%;
+  
+  }
+  
+  .menu-login ul{
+    list-style:none;
+    
+  }
+  
+  .menu-login li{
+    display: inline;
+    padding: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+  }
+  
+  .menu-login a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  }
+
+  #money{
+    margin-left: -2%;
+  }
+  
+  .menu-login button{
+    border: 1px solid white;
+    background-color: white;
+    cursor:pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+     }
+
+/*-----------Register------------*/
+
+#background-form-register{
+  background-color: rgba(0, 0, 0, 0.5);
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+
+#form-register{
+  margin-top: 10%;
+  background-color: white;
+  margin-left: 30%;
+  width: 30%;
+  height: 73%;
+ 
+}
+
+#close{
+background-color:white;
+border: white;
+margin-top: 3%;
+margin-left: 3%;
+color:grey;
+cursor: pointer;
+}
+
+#input-register{
+  padding: 3%;
+  width: 80%;
+  margin-top: 4%;
+  margin-left: 6.5%;
+}
+
+#p-register{
+color: rgb(65, 64, 64);
+margin-left: 6.5%;
+}
+
+#date-born{
+  padding: 3%;
+  width: 80%;
+  margin-left: 6.5%;
+/*arrumar pra todos ficarem igual*/
+}
+
+#send-form{
+padding: 3%;
+  margin-top: 2%;
+  margin-left: 6.5%;
+  width: 87%;
+  color: white;
+background-color: #f7b06a ;
+border: 1px solid #f7b06a ;
+
+cursor: pointer;
+}
+
+/*------------Enter--------------*/
+
+#form-enter{
+  margin-top: 10%;
+  background-color: white;
+  margin-left: 30%;
+  width: 30%;
+  height: 63%;
+}
+
+#h2-enter{
+  margin-left: 6%;
+  margin-top: 8%;
+
+}
+
+#email{
+  margin-top: 2%;
+  padding: 3%;
+  width: 80%;
+  margin-left: 6.5%;
+
+}
+
+#password{
+  padding: 3%;
+  width: 80%;
+  margin-top: 2%;
+  margin-left: 6.5%;
+}
+
+#name{
+  padding: 3%;
+  width: 80%;
+  margin-top: 2%;
+  margin-left: 6.5%;
+}
+
+/*----------Login-----------*/
+
+#link-logout{
+  font-family: 'Alatsi', sans-serif;
+  float: right;
+  margin-right: 8%;
+ 
+}
+
+#Hello-user{
+  font-family: 'Alatsi', sans-serif;
+  margin-left: 30%;
+  
+}
+
+#Hello-user span{
+  font-family: 'Alatsi', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: #f7b06a;
+}
+
+
+
+/*-----------Money------------*/
+
+#send-money{
+  background-color: white;
+  border: 3px solid #f7b06a;
+  display: grid;
+  width: 90%;
+  margin-left: 5%;
+  padding: 1.43%;
+  margin-top: 12%;
+  font-family: 'Alatsi', sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+
+#send-money :hover{
+  background-color:  #f7b06a ;
+}
+
+/*-----------Language------------*/
+
+#send-language{
+  background-color: white;
+  border: 3px solid #f7b06a;
+  display: grid;
+  width: 90%;
+  margin-left: 5%;
+  padding: 1.43%;
+  margin-top: 12%;
+  font-family: 'Alatsi', sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/*-----------Place------------*/
+
+#form-search{
+  font-family: 'Alatsi', sans-serif;
+  font-size: 15px;
+  cursor: pointer; 
+  margin-top: 5%;
+  margin-left: 2%;
+  border: 3px solid #d3d3d3;
+  width: 22%;
+  height: 70%;
+  }
+
+#pesquisa{
+  margin-top: 20%;
+ 
+}
+
+#line-search{
+  margin-top: 20%;
+}
+
+#price{
+margin-left: 42%;
+
+}
+
+#place-img-filter{
+  margin-top: -28.5%;
+  margin-left: 45%
+}
+
+#min{
+  margin-left: 9%
+}
+
+.gander{
+  margin-top: 9%;
+  margin-left: 9%
+}
+
+
+#place-img{
+  margin-left: 30%;
+  color: rgb(85, 85, 85);
+  font-family: 'Alatsi', sans-serif;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 70%;
+  height: 5px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; 
+  background:  #f7b06a;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background:  #f7b06a;
+  cursor: pointer;
+}
+
+#maps{
+  margin-top: -15%;
+}
+
+.hidden{
+  visibility: hidden
+}
+
+/*-----------Menu-Filter-----------*/
+
+#menu-fixed-filter{
+  position: fixed;
+  background-color:white;
+  width: 100%;
+  margin-top: -15%;
+  z-index: 1000;
+  
+}
+
+
+#form-place-filter{
+  margin-top: -10.5%;
+  margin-left: 7%;
+  
+  }
+
+  #place-complete-filter{
+    margin-top: 5%;
+    
+    width: 25%;
+    padding: 2%;
+    margin-left: 3%;
+    
+    }
+
+    
+#menu-home-filter{
+  margin-top: -5%;
+  margin-left: 19%;
+}
+
+.menu-login-filter ul{
+  list-style:none;
+  
+}
+
+.menu-login-filter li{
+  display: inline;
+  padding: 2%;
+  margin-left: 2%;
+  margin-right: 1%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+
+.menu-login-filter a{
+text-decoration: none;
+color: black;
+font-family: 'Courier New', Courier, monospace;
+font-size: 15px;
+}
+
+.menu-login-filter button{
+  border: 1px solid white;
+  background-color: white;
+  cursor:pointer;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+   }
+
+   #link-logout-filter{
+    font-family: 'Alatsi', sans-serif;
+    float: right;
+    margin-right: 10%;
+   
+  }
+
+#logo-store-filter{
+  width: 5%;
+  margin-top: 1%;
+margin-left: 1%;
+}
+
+/*-------Filter-----------*/
+
+#filter-login{
+  margin-top: 15%;
+
+  width: 100%;
+}
+
+#gender-filter{
+  margin-top: 10%;
+  margin-left:15% ;
+}
+
+#label-price{
+  margin-left:43%; 
+  
+}
+
+#date-filter{
+  margin-left:0% ;
+  
+}
+
+#label-date{
+margin-left: 35% ;
+margin-top: -5%;
+font-size: 14px;
+
+}
+
+#label-date-return{
+  margin-left: 35% ;
+  margin-top: -5%;
+  font-size: 14px;
+ 
+}
+
+#label-date-div{
+  margin-top: 15%;
+
+}
+
+#label-date-div-return{
+  margin-top: 8%;
+}
+
+#date{
+  margin-top: 0%;
+  margin-left: 35%;
+  color: #b4b3b3;
+ 
+}
+
+#date-back{
+  margin-top: 0%;
+  margin-left: 35%;
+  color:  #b4b3b3;
+}
+
+#description{
+  font-family: 'Spectral', serif;
+  font-size: 14px;
+}
